@@ -4,7 +4,7 @@ function compute()
     var principal = document.getElementById("principal").value;
 
     //chech zero value
-    if(principal==0){
+    if(principal<1){
         alert("Enter a positive number");
         document.getElementById("principal").focus();
         return;
